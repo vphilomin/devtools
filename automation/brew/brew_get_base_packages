@@ -13,6 +13,8 @@ vim
 tmux
 zsh
 rbenv
+ripgrep
+node
 ].each{|item| system("brew install #{item}")}
 
 system("./rbenv_complete")
