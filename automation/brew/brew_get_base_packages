@@ -19,6 +19,7 @@
    node
    exa
    tldr
-   bat].each { |item| system("brew install #{item}") }
+   bat
+   jq].each { |item| system("brew install #{item}") }
 
 system('./rbenv_complete')
