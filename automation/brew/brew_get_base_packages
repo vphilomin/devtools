@@ -1,22 +1,24 @@
-#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# !/usr/bin/env ruby
 
 %w[git
-coreutils
-ctags
-growlnotify
-libevent
-readline
-fzf
-ack
-tree
-vim
-tmux
-zsh
-rbenv
-ripgrep
-node
-exa
-tldr
-].each{|item| system("brew install #{item}")}
+   coreutils
+   ctags
+   growlnotify
+   libevent
+   readline
+   fzf
+   ack
+   tree
+   vim
+   tmux
+   zsh
+   rbenv
+   ripgrep
+   node
+   exa
+   tldr
+   bat].each { |item| system("brew install #{item}") }
 
-system("./rbenv_complete")
+system('./rbenv_complete')
