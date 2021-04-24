@@ -15,6 +15,7 @@
    tmux
    zsh
    rbenv
+   ruby-build
    ripgrep
    node
    exa
