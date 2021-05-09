@@ -21,6 +21,5 @@
    exa
    tldr
    bat
+   gh
    jq].each { |item| system("brew install #{item}") }
-
-system('./rbenv_complete')
