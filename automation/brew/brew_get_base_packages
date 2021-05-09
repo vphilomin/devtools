@@ -1,8 +1,7 @@
-# frozen_string_literal: true
-
-# !/usr/bin/env ruby
+#!/usr/bin/env ruby
 
 %w[git
+   gh
    coreutils
    ctags
    growlnotify
@@ -21,5 +20,4 @@
    exa
    tldr
    bat
-   gh
    jq].each { |item| system("brew install #{item}") }
