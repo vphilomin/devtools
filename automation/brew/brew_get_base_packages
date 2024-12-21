@@ -20,4 +20,6 @@
    exa
    tldr
    bat
+   yt-dlp
+   syncthing
    jq].each { |item| system("brew install #{item}") }
